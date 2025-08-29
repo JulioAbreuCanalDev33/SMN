@@ -1,0 +1,64 @@
+# Sistema de Monitoramento - .gitignore
+# Autor: Julio Abreu
+
+# Banco de dados
+database/database.sqlite
+database/*.db
+database/*.sqlite3
+
+# Uploads
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Composer
+vendor/
+composer.lock
+
+# Configurações locais
+config/local.php
+.env
+.env.local
+
+# Cache
+cache/
+tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+
+# Node modules (se usar npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build files
+dist/
+build/
+
+# Error logs
+error.log
+access.log
+*.log
+
